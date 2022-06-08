@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://ecole-ingenieurs.cesi.fr/">
-    <img src="https://ecole-ingenieurs.cesi.fr/wp-content/themes/cesi/static/logo/ecole-ingenieurs.svg" alt="Logo">
+    <img src="https://ecole-ingenieurs.cesi.fr/wp-content/themes/cesi/static/logo/ecole-ingenieurs.svg" alt="Logo" width="90">
   </a>
 
   <h3 align="center">Workshop prosit 3 DEV - A4 CESI</h3>
