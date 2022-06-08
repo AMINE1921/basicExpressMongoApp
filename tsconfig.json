@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./_dist",
+    "allowJs": true,
+    "target": "es5",
+    "resolveJsonModule": true,
+    "watch": true
+  },
+  "include": ["./**/*"]
+}

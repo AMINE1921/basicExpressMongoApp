@@ -32,4 +32,4 @@ mongoose.connect(process.env.DB_CONNECTION);
 
 app.use("/api/sensors", userRoutes);
 
-module.exports = app;
+export default app

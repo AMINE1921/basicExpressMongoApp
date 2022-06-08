@@ -60,7 +60,7 @@ exports.editSensor = (req, res) => {
   console.log("body: ", req?.body);
   if (sensors.find((e) => e.id == idSensor)) {
     sensors = sensors.map((sensor) =>
-      parseFloat(sensor?.id) === parseFloat(idSensor)
+      Number(sensor?.id) === parseFloat(idSensor)
         ? { ...sensor, type: req?.body?.type, datas: req?.body?.datas }
         : sensor
     );
