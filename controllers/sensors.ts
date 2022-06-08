@@ -34,7 +34,7 @@ exports.addSensor = (req, res) => {
       datas: req?.body?.datas,
     });
     return res.status(201).json({
-      message: "Capteur crée avec succès !",
+      message: "Capteur créé avec succès !",
       response: sensors,
     });
   } else {

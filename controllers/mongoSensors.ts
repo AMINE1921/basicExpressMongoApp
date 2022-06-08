@@ -11,7 +11,7 @@ exports.newSensor = async (req, res) => {
       .save()
       .then(() => {
         return res.status(201).json({
-          message: "Capteur crée avec succès !",
+          message: "Capteur créé avec succès !",
           response: sensor,
         });
       })
